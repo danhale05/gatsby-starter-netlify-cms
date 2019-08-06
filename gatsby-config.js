@@ -53,6 +53,12 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              trackingId: `UA-145139882-1`,
+            },
+          },
+          {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
